@@ -183,19 +183,56 @@ body,h1,h2,h3,h4,h5.h6,p,a,span{
    letter-spacing: 0.5px;
 }
 
-.about-us .about-us-right{
+.about-us .about-us-right {
     float: left;
     width: 50%;
+    padding: 38px;
 }
-.about-us .about-us-right .image-2 {
-    height: auto;
-    width: 523px;
-}
+
 .about-us .about-us-right .image-2 img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-left: 22px;
+}
+/* Icon Hovar */
+.about-us .about-us-right .image-2{
+    height:100%;
+    width: 523px;
+    position: relative;
+}
+.about-us .about-us-right .image-2 .hovar-inner {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 22px;
+    height: 0;
+    width: 0;
+    color: red;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: .4s;
+    visibility: hidden; 
+    opacity: 0;
+}
+.about-us .about-us-right .image-2 .hovar-inner ul{
+    text-align: center;
+    list-style: none;
+    margin-top: 33%;
+}
+.about-us .about-us-right .image-2 .hovar-inner ul li{
+    display: inline-block;
+}
+.about-us .about-us-right .image-2 .hovar-inner ul li a{
+    padding-left: 10px;
+    font-size: 38px;
+    color: #000;
+}
+/* Hovar icon */
+.about-us .about-us-right .image-2:hover .hovar-inner{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
 }
 /* Service Section */
 .service-section{
