@@ -84,8 +84,7 @@ body,h1,h2,h3,h4,h5.h6,p,a,span{
     margin-top: 76px;
     position: relative;
 }
-.banner-section .bg-video .mp4{
-}
+
 .banner-section .bg-video-text {
     position: absolute;
     top: 20%;
@@ -200,7 +199,6 @@ body,h1,h2,h3,h4,h5.h6,p,a,span{
     height:100%;
     width: 523px;
     position: relative;
-
 }
 .about-us .about-us-right .image-2 .hovar-inner {
     position: absolute;

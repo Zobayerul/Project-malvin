@@ -1,0 +1,770 @@
+@media (max-width:1180px){
+    .container {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right:20px ;
+    }
+    .banner-section .bg-video-text {
+        left: 4%;
+    }
+    .about-us .about-us-right .image-2 {
+        width: 455px;
+    }
+    .about-us .about-us-left {
+        padding-left: 27px;
+    }
+    .contact-section .contact-map {
+        padding: 0 140px;
+    }
+    .contact-section .form-left {
+        padding: 0 56px;
+        text-align:right;
+    }
+    .contact-section .form-right {
+        padding: 0 55px;
+        text-align: left;
+    }
+
+}
+@media (max-width:1120px){
+    .banner-section .bg-video-text {
+        left: -2%;
+    }
+    .banner-section .bg-video-text h2 {
+        font-size: 52px;
+        margin-bottom: 31px;
+    }
+    .banner-section .bg-video-text .p-tag p {
+        font-size: 21px;
+    }
+    .about-us .about-us-right .image-2 {
+        width: 392px;
+    }
+    .service-section .service-item {
+        margin-top: 40px;
+        margin-left: 54px;
+    }
+    .service-section .service-item .item-1 {
+        width: 21%;
+    }
+    .service-section .service-item .item-1 .circle {
+        margin-left: 52px;
+    }
+    .service-section .service-item .item-1 p {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .call-to-action .bg-text {
+        left: 20%;
+    }
+    .pricing-table .main-box {
+        width: 21%;
+        margin-left: 29px;
+    }
+    .pricing-table .pricing-tittle h2::after {
+        content: "";
+        left: 430px;
+    }
+    .team-section .team-box {
+        width: 30%;
+        margin-left: 3px;
+    }
+    .team-section .team-tittle h2::after {
+        content: "";
+        left: 438px;
+    }
+    .newslatter .newslatter-tittle h2::after {
+        content: "";
+        left: 407px;
+    }
+    .footer-top .footer-top-text-left p {
+        font-size: 15px;
+    }
+    .footer-top .footer-top-text-right ul li {
+        font-size: 14px;
+    }
+    .footer-bottom .footer-bottom-left {
+        width: 39%;
+    }
+    .footer-bottom .footer-bottom-left p {
+        font-size: 14px;
+    }
+    .footer-bottom .footer-bottom-right ul li a span {
+        font-size: 16px;
+    }
+}
+@media (max-width:1080px){
+    .main-header .header .menu-area ul {
+        text-align: left;
+    }
+    .main-header .header .menu-area ul li a {
+        padding: 0 12px;
+        font-size: 16px;
+    }
+    .banner-section .bg-video-text {
+        left: -2%;
+    }
+    .banner-section .bg-video-text h2 {
+        font-size: 52px;
+        margin-bottom: 31px;
+    }
+    .banner-section .bg-video-text .p-tag p {
+        font-size: 21px;
+    }
+    .about-us .about-us-right .image-2 {
+        width: 392px;
+    }
+    
+    .service-section .service-item {
+        margin-left: 9px;
+    }
+    .service-section .service-item .item-1 {
+        width: 22%;
+    }
+    .service-section .service-item .item-1 .circle {
+        margin-left: 52px;
+    }
+    .service-section .service-item .item-1 p {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .call-to-action .bg-text {
+        left: 20%;
+    }
+    .pricing-table .main-box {
+        width: 21%;
+        margin-left: 29px;
+    }
+    .pricing-table .pricing-tittle h2::after {
+        content: "";
+        left: 430px;
+    }
+    .team-section .team-box {
+        width: 30%;
+        margin-left: 3px;
+    }
+    .team-section .team-tittle h2::after {
+        content: "";
+        left: 438px;
+    }
+    .newslatter .newslatter-tittle h2::after {
+        content: "";
+        left: 407px;
+    }
+    .footer-top .footer-top-text-left p {
+        font-size: 15px;
+    }
+    .footer-top .footer-top-text-right ul li {
+        font-size: 13px;
+    }
+    .footer-bottom .footer-bottom-left {
+        width: 39%;
+    }
+    .footer-bottom .footer-bottom-left p {
+        font-size: 12px;
+    }
+    .footer-bottom .footer-bottom-right ul li a span {
+        font-size: 16px;
+    }
+   
+}
+@media (max-width:930px){
+    .main-header .header .menu-area ul li a {
+        padding: 0px 8px;
+        font-size: 14px;
+    }
+    .banner-section .bg-video-text {
+        left: -10%;
+    }
+    .about-us .about-us-left h2::after {
+        content: "";
+        top: 43px;
+        left: 126px;
+    }
+    .about-us {
+        padding-top: 50px;
+        padding-bottom: 29px;
+    }
+    .about-us .about-us-right .image-2 {
+        width: 329px;
+    }
+    .about-us .about-us-right .image-2 img {
+        margin-left: 0px;
+    }
+    .about-us .about-us-right .image-2 .hovar-inner {
+        left: 0px;
+    }
+    .about-us .about-us-left h2 {
+        font-size: 25px;
+    }
+    .about-us .about-us-left p {
+        font-size: 12px;
+    }
+    .service-section {
+        padding: 34px 0 94px;
+    }
+    .service-section .service-section-tittle h2::after {
+        content: "";
+        top: 52px;
+        left: 329px;
+    }
+    .service-section .service-item .item-1 .circle {
+        margin-left: 41px;
+    }
+    .service-section .service-item {
+        margin-left: -8px;
+    }
+    .call-to-action .background-img {
+        height: 302px;
+        width: 100%;
+    }
+    .call-to-action .bg-text {
+        left: 10%;
+        margin-top: -41px;
+    }
+    .team-section .team-box {
+        width: 30%;
+        padding-left: 68px;
+    }
+    .team-section .team-box .team-img img {
+        width: 224px;
+    }
+    .team-section .team-box .team-text {
+        margin-left: 39px;
+    }
+    .team-section .team-box .team-text h2 {
+        font-size: 11px;
+    }
+    .footer-top .footer-top-text-right ul li span i {
+        font-size: 16px;
+    }
+    .footer-top .footer-top-text-right ul li {
+        font-size: 10px;
+    }
+    .footer-top .footer-top-text-left p {
+        font-size: 13px;
+    }
+    .footer-bottom .footer-bottom-left p {
+        font-size: 11px;
+    }
+}
+@media (max-width:768px){
+    .main-header {
+        height: 119px;
+        line-height: 58px;
+    }
+    .main-header .header .logo-area {
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    .main-header .header .menu-area {
+        width: 100%;
+        float: left;
+    }
+    .main-header .header .menu-area ul {
+        text-align: center;
+    }
+    .main-header .header .menu-area ul li a::after {
+        content: "";
+        top: 43px;
+    }
+    .banner-section {
+        margin-top: 101px;
+        position: relative;
+    }
+    .banner-section .bg-video-text {
+        left:-40%;
+    }
+    .banner-section .bg-video-text h2 {
+        font-size: 34px;
+        margin-bottom: 16px;
+        display: inline;
+        margin-left: 123px;
+    }
+    .banner-section .bg-video-text h3 {
+        font-size: 23px;
+        margin-bottom: 28px;
+        margin-left: 110px;
+    }
+    .banner-section .bg-video-text h3 {
+        font-size: 23px;
+        margin-bottom: 28px;
+    }
+    .banner-section .bg-video-text h3::after {
+        content: "";
+        left: 248px;
+    }
+    .banner-section .bg-video-text .p-tag p {
+        font-size: 9px;
+        margin-left: 129px;
+    }
+    .banner-section .bg-video-text .btn-1 {
+        font-size: 11px;
+        padding: 12px 28px;
+        margin-top: 20px;
+        margin-left: 138px;
+    }
+    .about-us .about-us-left {
+        width: 100%;
+    }
+    .about-us .about-us-left h2::after {
+        content: "";
+        left: 206px;
+    }
+    .about-us .about-us-right {
+        width: 100%;
+    }
+    .about-us .about-us-right .image-2 {
+        width: 329px;
+        margin-left: 70px;
+    }
+    .about-us .about-us-right .image-2 .hovar-inner {
+        left: 0px;
+    }
+    .about-us .about-us-right .image-2 .hovar-inner ul li a {
+    font-size: 20px;
+    }
+
+    .service-section {
+        padding: 10px 0 80px;
+    }
+    .service-section .service-section-tittle h2 {
+        font-size: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+        position: relative;
+    }
+    .service-section .service-section-tittle h2::after {
+        content: "";
+        top: 41px;
+        left: 225px;
+    }
+    .service-section .service-item .item-1 {
+        width: 45%;
+        margin-bottom: 22px;
+    }
+    .service-section .service-item .item-1 .circle {
+        margin-left: 81px;
+    }
+    .call-to-action .bg-text {
+        left: 12%;
+    }
+    .call-to-action .bg-text h2 {
+        font-size: 22px;
+    }
+    .call-to-action .bg-text p {
+        font-size: 16px;
+    }
+    .call-to-action .bg-text h2::after {
+        content: "";
+        left: 168px;
+    }
+    .pricing-table {
+        padding-top: 75px;
+        padding-bottom: 60px;
+    }
+    .pricing-table .pricing-tittle h2 {
+        font-size: 28px;
+    }
+    .pricing-table .pricing-tittle h2::after {
+        content: "";
+        left: 221px;
+    }
+    .pricing-table .main-box {
+        width: 43%;
+        margin-left: 29px;
+    }
+    .team-section .team-tittle h2::after {
+        content: "";
+        left: 228px;
+    }
+    .team-section .team-box {
+        width: 51%;
+        padding-left: 68px;
+    }
+    .team-section .team-box .team-img {
+        margin-left: 95px;
+    }
+    .team-section .team-box .team-text {
+        margin-left: 175px;
+    }
+    .team-section .team-box .team-text h2 {
+        font-weight: 400;
+        line-height: 1.1;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+    .newslatter {
+        padding-top: 10px;
+        padding-bottom: 60px;
+    }
+    .newslatter .newslatter-tittle h2 {
+        font-size: 23px;
+    }
+    .newslatter .newslatter-tittle h2::after {
+        content: "";
+        left: 224px;
+    }
+    .newslatter .email-form .email {
+        padding: 18px 84px;
+        border-radius: 50px;
+        outline: none;
+        border: 2px solid #1494ee;
+    }
+    .newslatter .email-form .btn-2 {
+        padding: 14px 20px;
+    }
+    .contact-section .contact-tittle h2 {
+        font-size: 30px;
+    }
+    .contact-section .contact-tittle h2::after {
+        content: "";
+        left: 230px;
+    }
+    .contact-section .contact-tittle p {
+        color: #fff;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        margin-top: 36px;
+        margin-bottom: 20px;
+    }
+    .contact-section .form-left {
+        margin-left: -13px;
+        width: 100%;
+    }
+    .contact-section .form-right {
+        width: 100%;
+        margin-left: 14px;
+    }
+    .contact-section .form-left .form-left-1 .btn-3 {
+        margin-left: -50px;
+    }
+    .footer-top .footer-top-text-left {
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 11px;
+    }
+    .footer-top .footer-top-text-right {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    .footer-bottom .footer-bottom-left {
+        width: 100%;
+    }
+    .footer-bottom .footer-bottom-right {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width:576px){
+    .main-header {
+        height: 157px;
+        line-height: 58px;
+    }
+    .main-header .header .menu-area {
+        margin-top: -19px;
+    }
+    .banner-section {
+        margin-top: 155px;
+    }
+    .banner-section .bg-video-text {
+        left: -40%;
+        margin-top: -26px;
+    }
+    .banner-section .bg-video-text h2 {
+        font-size: 21px;
+        margin-left: 137px;
+    }
+    .banner-section .bg-video-text h3 {
+        font-size: 17px;
+        margin-left: 143px;
+    }
+    .banner-section .bg-video-text h3::after {
+        content: "";
+        left: 76px;
+        top: 32px;
+    }
+    .banner-section .bg-video-text .p-tag {
+        width: 415px;
+    }
+    .banner-section .bg-video-text .btn-1 {
+        font-size: 10px;
+        padding: 12px 15px;
+        margin-top: 0px;
+    }
+    .about-us .about-us-left h2::after {
+        content: "";
+        left: 105px;
+    }
+    .about-us .about-us-right .image-2 {
+        margin-left: -29px;
+    }
+    .service-section .service-section-tittle h2 {
+        font-size: 20px;
+    }
+    .service-section .service-section-tittle h2::after {
+        content: "";
+        left: 122px;
+    }
+    .service-section .service-item {
+        margin-left:0px;
+    }
+    .service-section .service-item .item-1 {
+        width: 88%;
+        margin-bottom: 22px;
+    }
+    .service-section .service-item .item-1 .circle {
+        margin-left: 106px;
+    }
+    .call-to-action .bg-text {
+        left: 0;
+    }
+    .call-to-action .bg-text h2 {
+        font-size: 20px;
+    }
+    .call-to-action .bg-text h2::after {
+        content: "";
+        left: 135px;
+        top: 64px;
+    }
+    .call-to-action .bg-text p {
+        font-size: 12px;
+    }
+    .call-to-action .bg-text .btn-1 {
+        font-size: 13px;
+    }
+    .pricing-table .pricing-tittle h2::after {
+        content: "";
+        left: 118px;
+    }
+    .pricing-table .main-box {
+        width: 100%;
+        margin-left: 0;
+    }
+    .team-section .team-tittle h2::after {
+        content: "";
+        left: 125px;
+    }
+    .team-section .team-box {
+        width: 100%;
+        padding-left: 0;
+    }
+    .team-section .team-box .team-img {
+        margin-left: 0px;
+    }
+    .team-section .team-box .team-img img {
+        width: 100%;
+    }
+    .team-section .team-box .team-text {
+        margin-left: 0;
+    }
+    .newslatter .newslatter-tittle h2 {
+        font-size: 19px;
+    }
+    .newslatter .newslatter-tittle h2::after {
+        content: "";
+        left: 118px;
+        top: 41px;
+    }
+    .newslatter .newslatter-tittle p {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        margin-top: 33px;
+    }
+    .newslatter .email-form .email {
+        padding: 16px 50px;
+    }
+    .newslatter .email-form .btn-2 i {
+        font-size: 26px;
+        padding: 5px 49px;
+    }
+    .contact-section .contact-tittle h2 {
+        font-size: 24px;
+    }
+    .contact-section .contact-tittle h2::after {
+        content: "";
+        left: 119px;
+        top: 42px;
+    }
+    .contact-section .contact-map {
+        padding: 0 20px;
+    }
+    .contact-section .form-left .form-left-1 .wfull {
+        width: 100%;
+    }
+    .contact-section .form-right .form-right-2 .wfull-2 {
+        width: 100%;
+        margin-left: -23px;
+    }
+    .contact-section .form-left .form-left-1 .btn-3 {
+        margin-left: -75px;
+    }
+    .footer-top .footer-top-text-left {
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+}
+@media (max-width:356px){
+    .main-header .header .menu-area ul li a {
+        padding: 0px 8px;
+        font-size: 11px;
+    }
+    .banner-section .bg-video-text {
+        left: -60%;
+        margin-top: -26px;
+    }
+    .banner-section .bg-video-text h3 {
+        font-size: 15px;
+        margin-left: 143px;
+    }
+    .banner-section .bg-video-text .btn-1 {
+        margin-top: 4px;
+    }
+    .about-us .about-us-left h2::after {
+        content: "";
+        left: 63px;
+    }
+    .about-us .about-us-right .image-2 {
+        margin-left: -31px;
+        width: 249px;
+    }
+    .service-section .service-section-tittle h2::after {
+        content: "";
+        left: 75px;
+    }
+    .service-section .service-item .item-1 .circle {
+        margin-left: 70px;
+    }
+    .call-to-action .bg-text {
+        left: 0;
+        padding: 0 40px;
+    }
+    .call-to-action .bg-text h2 {
+        font-size: 14px;
+    }
+    .call-to-action .bg-text h2::after {
+        content: "";
+        left: 53px;
+        top: 43px;
+    }
+    .call-to-action .bg-text p {
+        font-size: 12px;
+    }
+    .pricing-table .pricing-tittle h2::after {
+        content: "";
+        left: 75px;
+    }
+    .team-section .team-tittle h2::after {
+        content: "";
+        left: 75px;
+    }
+    .newslatter .newslatter-tittle h2::after {
+        content: "";
+        left: 75px;
+        top: 62px;
+    }
+    .newslatter .email-form .email {
+        padding: 16px 20px;
+    }
+    .contact-section .contact-tittle h2::after {
+        content: "";
+        left: 75px;
+        top: 42px;
+    }
+    .footer-top .footer-top-text-left p {
+        font-size: 12px;
+    }
+    .footer-bottom .footer-bottom-left p {
+        font-size: 9px;
+    }
+}
+@media (max-width:342px){
+    .banner-section .bg-video-text {
+        left: -48%;
+        margin-top: -26px;
+    }
+
+}
+@media (max-width:318px){
+    .main-header .header .menu-area ul li a {
+        padding: 0px 8px;
+        font-size: 11px;
+    }
+    .banner-section .bg-video-text {
+        left: -60%;
+        margin-top: -26px;
+    }
+    .banner-section .bg-video-text h3 {
+        font-size: 15px;
+        margin-left: 143px;
+    }
+    .banner-section .bg-video-text .btn-1 {
+        margin-top: 4px;
+    }
+    .about-us .about-us-left h2::after {
+        content: "";
+        left: 63px;
+    }
+    .about-us .about-us-right .image-2 {
+        margin-left: -31px;
+        width: 249px;
+    }
+    .service-section .service-section-tittle h2::after {
+        content: "";
+        left: 75px;
+    }
+    .service-section .service-item .item-1 .circle {
+        margin-left: 70px;
+    }
+    .call-to-action .bg-text {
+        left: 0;
+        padding: 0 40px;
+    }
+    .call-to-action .bg-text h2 {
+        font-size: 14px;
+    }
+    .call-to-action .bg-text h2::after {
+        content: "";
+        left: 53px;
+        top: 43px;
+    }
+    .call-to-action .bg-text p {
+        font-size: 12px;
+    }
+    .pricing-table .pricing-tittle h2::after {
+        content: "";
+        left: 75px;
+    }
+    .team-section .team-tittle h2::after {
+        content: "";
+        left: 75px;
+    }
+    .newslatter .newslatter-tittle h2::after {
+        content: "";
+        left: 75px;
+        top: 62px;
+    }
+    .newslatter .email-form .email {
+        padding: 16px 20px;
+    }
+    .contact-section .contact-tittle h2::after {
+        content: "";
+        left: 75px;
+        top: 42px;
+    }
+    .footer-top .footer-top-text-left p {
+        font-size: 12px;
+    }
+    .footer-bottom .footer-bottom-left p {
+        font-size: 9px;
+    }
+}
+/* Gojamil The End */

@@ -3,10 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Project Malvin</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
 
   <!-- <link rel="apple-touch-icon" href="icon.png"> -->
   <!-- Place favicon.ico in the root directory -->
@@ -15,11 +14,17 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <!-- Wow Js css -->
+  <link rel="stylesheet" href="./css/animate.css">
   <link rel="stylesheet" href="./Style.css">
+  <!-- Responsive css -->
+  <link rel="stylesheet" href="css/risponsive.css">
+
 
   <meta name="theme-color" content="#fafafa">
 
@@ -39,6 +44,7 @@
             <a href="index.html"><img src="./img/logo.png" alt="Malvin Logo"></a>
           </div>
         </div>
+
         <div class="menu-area">
           <nav>
             <ul>
@@ -52,6 +58,7 @@
             </ul>
           </nav>
         </div>
+
       </div>
     </div>
   </header>
@@ -61,20 +68,21 @@
       <video autoplay loop width="100%" class="mp4" src="./img/MALVIN - Creative Multipurpose Template.mp4"></video>
     </div>
     <div class="bg-video-text">
-      <h2>Hello from Malvin</h2>
-      <h3>Welcome to our page</h3>
+      <h2 class="wow bounceInDown">Hello from Malvin</h2>
+      <h3 class="wow bounceInUp">Welcome to our page</h3>
       <div class="p-tag">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper gravida odio quis luctus. Nullam
+        <p class="wow bounceOut">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper gravida odio
+          quis luctus. Nullam
           massa odio, </p>
       </div>
-      <button class="btn-1">See our portfolio</button>
+      <button class="btn-1 wow bounceOut">See our portfolio</button>
 
     </div>
   </section>
- <!-- About Us Section -->
-  <section class="about-us clearfix" id="about">
+  <!-- About Us Section -->
+  <section class="about-us clearfix " id="about">
     <div class="container">
-      <div class="about-us-left">
+      <div class="about-us-left wow slideInLeft">
         <h4>Hello! We are Malvin</h4>
         <h2>ABOUT US</h2>
         <p>
@@ -91,7 +99,7 @@
           nec egestas sapien ultricies eu
         </p>
       </div>
-      <div class="about-us-right">
+      <div class="about-us-right wow slideInRight">
         <div class="image-2">
           <img src="./img/photo.jpg" alt="Bullding Photo">
           <div class="hovar-inner">
@@ -115,32 +123,32 @@
   <!-- Services Section -->
   <section class="service-section" id="service">
     <div class="container">
-      <div class="service-section-tittle">
+      <div class="service-section-tittle ">
         <h2>Services we offer</h2>
       </div>
-      <div class="service-item clearfix">
-        <div class="item-1">
+      <div class="service-item  clearfix">
+        <div class="item-1 wow slideInLeft">
           <div class="circle">
             <i class="fas fa-laptop"></i>
           </div>
           <h3>Web Design</h3>
           <p>Praesent magna neque, dapibus sit amet eros sed, aliquam interdum felis. Nulla rhoncus ipsum dui.</p>
         </div>
-        <div class="item-1">
+        <div class="item-1 wow slideInLeft">
           <div class="circle">
             <i class="fas fa-cogs"></i>
           </div>
           <h3>Coding</h3>
           <p>Praesent magna neque, dapibus sit amet eros sed, aliquam interdum felis. Nulla rhoncus ipsum dui.</p>
         </div>
-        <div class="item-1">
+        <div class="item-1 wow slideInRight">
           <div class="circle">
             <i class="fas fa-code"></i>
           </div>
           <h3>Clean Code</h3>
           <p>Praesent magna neque, dapibus sit amet eros sed, aliquam interdum felis. Nulla rhoncus ipsum dui.</p>
         </div>
-        <div class="item-1">
+        <div class="item-1 wow slideInRight">
           <div class="circle">
             <i class="fas fa-camera"></i>
           </div>
@@ -151,11 +159,11 @@
     </div>
   </section>
   <!-- Call to action Section -->
-  <section class="call-to-action">
+  <section class="call-to-action ">
     <div class="background-img">
       <img src="" alt="">
     </div>
-    <div class="bg-text">
+    <div class="bg-text wow bounceIn">
       <h2>Do you have an interesting project?</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       <button class="btn-1">Hire us!</button>
@@ -168,7 +176,7 @@
         <h2>Pricing</h2>
       </div>
 
-      <div class="main-box">
+      <div class="main-box wow slideInDown">
         <div class="top-box">
           <h3>Standard</h3>
           <h4>$ 10 <span>per month</span></h4>
@@ -184,7 +192,7 @@
           <button class="btn-1">Purchase</button>
         </div>
       </div>
-      <div class="main-box">
+      <div class="main-box wow slideInDown">
         <div class="top-box">
           <h3>Business</h3>
           <h4>$ 20 <span>per month</span></h4>
@@ -200,7 +208,7 @@
           <button class="btn-1">Purchase</button>
         </div>
       </div>
-      <div class="main-box">
+      <div class="main-box wow slideInDown">
         <div class="top-box">
           <h3>Premium</h3>
           <h4>$ 30 <span>per month</span></h4>
@@ -216,7 +224,7 @@
           <button class="btn-1">Purchase</button>
         </div>
       </div>
-      <div class="main-box">
+      <div class="main-box wow slideInDown">
         <div class="top-box">
           <h3>Extra</h3>
           <h4>$ 40 <span>per month</span></h4>
@@ -236,13 +244,13 @@
     </div>
   </section>
   <!-- Team Section -->
-  <section class="team-section clearfix" id="team">
+  <section class="team-section clearfix " id="team">
     <div class="container">
       <div class="team-tittle">
         <h2>Our Team</h2>
       </div>
 
-      <div class="team-box">
+      <div class="team-box wow flip">
         <div class="team-img">
           <img src="./img/team1.jpg" alt="Team Picture">
         </div>
@@ -251,7 +259,7 @@
           <p>founder & ceo</p>
         </div>
       </div>
-      <div class="team-box">
+      <div class="team-box wow flip">
         <div class="team-img">
           <img src="./img/team2.jpg" alt="Team Picture">
         </div>
@@ -260,7 +268,7 @@
           <p>Programmer </p>
         </div>
       </div>
-      <div class="team-box">
+      <div class="team-box wow flip">
         <div class="team-img">
           <img src="./img/team3.jpg" alt="Team Picture">
         </div>
@@ -274,11 +282,11 @@
   <!-- newslatter Section -->
   <section class="newslatter" id="news">
     <div class="container">
-      <div class="newslatter-tittle">
+      <div class="newslatter-tittle wow fadeOutDown">
         <h2>Subscribe to our Newsletter</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
-      <div class="email-form">
+      <div class="email-form wow flipInX">
         <form action="">
           <input type="email" class="email" placeholder="Enter Your Email Address">
           <button type="submit" class="btn-2"><i class="fas fa-paper-plane"></i></button>
@@ -289,11 +297,11 @@
   <!-- Contact Section -->
   <section class="contact-section clearfix" id="contact">
     <div class="container">
-      <div class="contact-tittle">
+      <div class="contact-tittle wow slideInDown">
         <h2>Contact Us</h2>
         <p>Please fill the form below. We will contact you as soon as possible.</p>
       </div>
-      <div class="contact-map">
+      <div class="contact-map ">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.3486922003904!2d90.3770713148642!3d23.948106887111983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c4abf8334fb1%3A0xbb003124c3dedc91!2sIslamic%20University%20of%20Technology!5e0!3m2!1sen!2sbd!4v1614423853703!5m2!1sen!2sbd"
           width="100%" height="400" style="border:0;" allowfullscreen="" loading="fast"></iframe>
@@ -304,12 +312,12 @@
           <input type="text" placeholder="YOUR NAME" class="wfull">
           <input type="email" placeholder="E-mail" class="wfull">
           <input type="text" placeholder="SUBJECT" class="wfull">
-          <button type="submit" class="btn-3">send message</button>
+          <button type="submit" class="btn-3 wow tada">send message</button>
         </form>
       </div>
 
       <div class="form-right">
-        <form action="#" class="form-right-2">
+        <form action="#" class="form-right-2 ">
           <textarea name="message" id="" cols="60" rows="9" class="wfull-2" placeholder="YOUR MESSAGE"></textarea>
         </form>
       </div>
@@ -320,7 +328,7 @@
   <section>
     <div class="footer-top clearfix">
       <div class="container">
-        <div class="footer-top-text-left">
+        <div class="footer-top-text-left wow slideInLeft">
           <p>
             Donec quis tincidunt nisl. Mauris ac urna libero. Aliquam cursus, augue eu efficitur dignissim, risus mauris
             porta diam, in bibendum lectus enim vitae risus. Maecenas sit amet pretium quam, in tristique ante. Sed
@@ -328,7 +336,7 @@
             cursus enim. Ut in lorem finibus, vestibulum nulla a, pellentesque mauris.
           </p>
         </div>
-        <div class="footer-top-text-right">
+        <div class="footer-top-text-right wow slideInRight">
           <ul>
             <li> <span><i class="fas fa-street-view"></i></span> 1704 Gazipur City,Dhaka,Bangladesh </li>
             <li> <span><i class="fas fa-phone"></i></span> +8801968634181</li>
@@ -341,10 +349,10 @@
   <!-- footer Buttom  -->
   <section class="footer-bottom clearfix">
     <div class="container">
-      <div class="footer-bottom-left">
+      <div class="footer-bottom-left wow shake">
         <p>&copy; 2021 All rights reserved by <a href="#">Zobayerul Islam Shishir</a></p>
       </div>
-      <div class="footer-bottom-right">
+      <div class="footer-bottom-right wow shake">
         <ul>
           <li><a href="#"><span><i class="fab fa-facebook-f"></i></a> </i></span></li>
           <li><a href="#"> <span><i class="fab fa-whatsapp"></i></span></span> </a></li>
@@ -358,10 +366,15 @@
 
   <!--All rights reserved by Zobayerul islam Shishir 2021  -->
 
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="./js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
 
 </body>
 
